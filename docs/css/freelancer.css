@@ -9,6 +9,7 @@ body {
 }
 p {
   font-size: 20px;
+  font-family: sans-serif;
 }
 p.small {
   font-size: 16px;

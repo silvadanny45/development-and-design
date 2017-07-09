@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://ruzekklein.github.io/"
+baseurl = "https://ruzekklein.github.io/development-and-design"
 languageCode = "en-us"
 title = "Ruzek-Klein Development & Design"
 theme = "hugo-freelancer-theme"

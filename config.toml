@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://ruzekklein.github.io/development-and-design/"
+baseurl = "https://ruzekklein.github.io/development-and-design/docs/"
 languageCode = "en-us"
 title = "Ruzek-Klein Development & Design"
 publishDir = "docs"

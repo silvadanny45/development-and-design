@@ -21,3 +21,23 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+/*Add the module that lets the user select their custom package. */
+$(document).ready(function(){
+    
+    var total = 0;
+
+
+    $("#service-graphicdesign").click(function(){
+        $("ol").append("<li>Graphic Design $100</li>");
+        total += 100;
+        $(".totalPrice").val(total);
+    });
+    
+     $("#service-webdesign").click(function(){
+        $("ol").append("<li>Web Design $500</li>");
+        total += 500; 
+        $(".totalPrice").val(total);
+ 
+    });
+});

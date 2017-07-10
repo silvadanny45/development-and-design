@@ -29,13 +29,13 @@ $(document).ready(function(){
 
 
     $("#service-graphicdesign").click(function(){
-        $("ol").append("<li>Graphic Design $100</li>");
+        $("#shoppingCart").append("<li>Graphic Design $100</li>");
         total += 100;
         $(".totalPrice").val(total);
     });
     
      $("#service-webdesign").click(function(){
-        $("ol").append("<li>Web Design $500</li>");
+        $("#shoppingCart").append("<li>Web Design $500</li>");
         total += 500; 
         $(".totalPrice").val(total);
  

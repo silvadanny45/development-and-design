@@ -83,6 +83,10 @@ publishDir = "docs"
         [params.contact.form.phone]
             text = "Phone Number"
             error = "Please enter your phone number."
+            
+        [params.contact.form.price]
+            text = "These services will cost"
+            error = "Please select at least one service"
 
         [params.contact.form.message]
             text = "Message"

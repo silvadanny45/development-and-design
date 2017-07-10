@@ -37,7 +37,7 @@ $(document).ready(function(){
      $("#service-webdesign").click(function(){
         $("ul").append("<li>Web Design $500</li>");
         total += 500; 
-        $(".totalPrice").val(total);
+        $(".totalPrice").val("$" + total);
  
     });
 });

@@ -31,13 +31,13 @@ $(document).ready(function(){
     $("#service-graphicdesign").click(function(){
         $(".shoppingCart").append("<dt>Graphic Design</dt><dd>$100</dd>");
         total += 100;
-        $(".totalPrice").val("$" + total);
+        $(".totalPrice").val("Total: $" + total);
     });
     
      $("#service-webdesign").click(function(){
         $(".shoppingCart").append("<dt>Web Design</dt><dd>$500</dd>");
         total += 500; 
-        $(".totalPrice").val("$" + total);
+        $(".totalPrice").val("Total: $" + total);
  
     });
 });

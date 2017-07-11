@@ -219,7 +219,7 @@ section.success {
   border-bottom: 1px solid #eeeeee;
 }
 .floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group textarea, .floating-label-form-group p {
   z-index: 1;
   position: relative;
   padding-right: 0;

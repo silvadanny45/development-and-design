@@ -521,6 +521,6 @@ div#maincontent {
     display: none;
 }
 
-.dl-horizontal dt, .dl-horizontal dd{
+.dl-horizontal dt:first-of-type, .dl-horizontal dd:first-of-type{
     padding-top: 50px;
 }

@@ -35,7 +35,7 @@ $(document).ready(function(){
 //    });
     
     $("#service-website").click(function(){
-        $(".service-website").style("display: block");
+        $(".service-website").css( "display", "block" );
         total += 100;
         $(".totalPrice").val("Estimated Total: $" + total);
     });      

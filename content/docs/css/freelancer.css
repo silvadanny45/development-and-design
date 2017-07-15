@@ -487,3 +487,7 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+#servicesNeeded1, #servicesNeeded2 {
+    padding-left: 20px;
+}

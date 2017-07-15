@@ -38,7 +38,7 @@ publishDir = "docs"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        name = "Choose your own customizable web and graphic package to build your small business of project."
+        name = "Choose your own customizable web and graphic package to build your small business or project."
         subtitle = "I'm Amelia Ruzek-Klein, developer and designer."
 
 
@@ -59,8 +59,8 @@ publishDir = "docs"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I'm working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands"
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a small business ready to grow, Ruzek-Klein Development and Design is the perfect starting point!"
+        left = "I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I'm working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands."
+        right = "Whether you're a student needing to showcase your work, a professional looking to attract clients, or a small business ready to grow, Ruzek-Klein Development and Design is the perfect starting point!"
 
         [params.about.button]
             text = "Get started today"
@@ -85,7 +85,7 @@ publishDir = "docs"
             error = "Please enter your phone number."
             
         [params.contact.form.price]
-            text = "What can I do for you?"
+            text = "Would you like to negotiate pricing? Message me."
             error = "Please select at least one service"
 
         [params.contact.form.message]

@@ -28,11 +28,17 @@ $(document).ready(function(){
     var total = 0;
 
 
+//    $("#service-website").click(function(){
+//        $(".shoppingCart").append("<dt>Website</dt><dd>$100</dd>");
+//        total += 100;
+//        $(".totalPrice").val("Estimated Total: $" + total);
+//    });
+    
     $("#service-website").click(function(){
-        $(".shoppingCart").append("<dt>{{ with .Site.Params.contact.form.service.website.text }}{{.}}{{ end }}</dt><dd>${{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }}</dd>");
+        $(".service-website").style("display: block");
         total += 100;
         $(".totalPrice").val("Estimated Total: $" + total);
-    });
+    });      
     
 
 });

@@ -49,7 +49,7 @@
                             
                             
                         <dl class="shoppingCart dl-horizontal">
-                            <!--placeholder for items-->
+                            <dt class="{{ with .Site.Params.contact.form.service.website.id }}{{.}}{{ end }}" >Website</dt><dd class="{{ with .Site.Params.contact.form.service.website.id }}{{.}}{{ end }}">$100</dd>
                         </dl>
                             
                         <label>{{ with .Site.Params.contact.form.price.text }}{{.}}{{ end }}</label>

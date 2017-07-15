@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 
     $("#service-website").click(function(){
-        $(".shoppingCart").append("<dt>Website</dt><dd>$100</dd>");
+        $(".shoppingCart").append("<dt>Website</dt><dd>$100 (one page)</dd>");
         total += 100;
         $(".totalPrice").val("Estimated Total: $" + total);
     });

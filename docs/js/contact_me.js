@@ -30,7 +30,7 @@ $(document).ready(function(){
 
     $("#{{ with .Site.Params.contact.form.service.website.id }}{{.}}{{ end }}").click(function(){
         $(".shoppingCart").append("<dt>{{ with .Site.Params.contact.form.service.website.text }}{{.}}{{ end }}</dt><dd>${{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }}</dd>");
-        total += {{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }};
+        total += 100;
         $(".totalPrice").val("Estimated Total: $" + total);
     });
     

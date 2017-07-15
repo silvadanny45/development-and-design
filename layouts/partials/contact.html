@@ -42,7 +42,7 @@
                     <div class="row control-group">
                         <div class="form-group col-12 floating-label-form-group controls">
                         <p class="form-control" id="servicesNeeded1">Services Needed</p> 
-                            
+                        <div id="servicesNeeded3">    
                         <button type="button" class = "btn btn-default btn-web" id="{{ with .Site.Params.contact.form.service.website.id }}{{.}}{{ end }}">{{ with .Site.Params.contact.form.service.website.text }}{{.}}{{ end }} ${{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }} <i class="material-icons" style = "display: inline-flex; vertical-align: middle;">add_circle_outline</i></button>
                             
                         <button type="button" class = "btn btn-default btn-web" id="{{ with .Site.Params.contact.form.service.hosting.id }}{{.}}{{ end }}">{{ with .Site.Params.contact.form.service.hosting.text }}{{.}}{{ end }} ${{ with .Site.Params.contact.form.service.hosting.price }}{{.}}{{ end }} <i class="material-icons" style = "display: inline-flex; vertical-align: middle;">add_circle_outline</i></button>
@@ -92,7 +92,7 @@
                         <button type="button" class = "btn btn-default" id="{{ with .Site.Params.contact.form.service.bot.id }}{{.}}{{ end }}">{{ with .Site.Params.contact.form.service.bot.text }}{{.}}{{ end }} ${{ with .Site.Params.contact.form.service.bot.price }}{{.}}{{ end }} <i class="material-icons" style = "display: inline-flex; vertical-align: middle;">add_circle_outline</i></button>
                             
                         <button type="button" class = "btn btn-default" id="{{ with .Site.Params.contact.form.service.idea.id }}{{.}}{{ end }}">{{ with .Site.Params.contact.form.service.idea.text }}{{.}}{{ end }} ${{ with .Site.Params.contact.form.service.idea.price }}{{.}}{{ end }} <i class="material-icons" style = "display: inline-flex; vertical-align: middle;">add_circle_outline</i></button>
-                            
+                        </div>    
                         <dl class="shoppingCart dl-horizontal">
                             <!--placeholder-->
                         </dl>

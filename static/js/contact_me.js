@@ -28,17 +28,13 @@ $(document).ready(function(){
     var total = 0;
 
 
-//    $("#service-website").click(function(){
-//        $(".shoppingCart").append("<dt>Website</dt><dd>$100</dd>");
-//        total += 100;
-//        $(".totalPrice").val("Estimated Total: $" + total);
-//    });
-    
     $("#service-website").click(function(){
-        $(".service-website").css( "display", "block" );
+        $(".shoppingCart").append("<dt>Website</dt><dd>$100</dd>");
         total += 100;
         $(".totalPrice").val("Estimated Total: $" + total);
-    });      
+    });
+    
+     
     
 
 });

@@ -65,7 +65,7 @@ $(document).ready(function(){
     });
     
     $("#service-webrevision").click(function(){
-        $(".shoppingCart").append("<dt>Web REvision</dt><dd>$50 (each)</dd>");
+        $(".shoppingCart").append("<dt>Web Revision</dt><dd>$50 (each)</dd>");
         total += 50;
         $(".totalPrice").val("Estimated Total: $" + total);
     });

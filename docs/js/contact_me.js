@@ -28,16 +28,11 @@ $(document).ready(function(){
     var total = 0;
 
 
-    $("#service-graphicdesign").click(function(){
-        $(".shoppingCart").append("<dt>Graphic Design</dt><dd>$100</dd>");
-        total += 100;
-        $(".totalPrice").val("Total: $" + total);
+    $("#{{ with .Site.Params.contact.form.service.website.id }}{{.}}{{ end }}").click(function(){
+        $(".shoppingCart").append("<dt>{{ with .Site.Params.contact.form.service.website.text }}{{.}}{{ end }}</dt><dd>${{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }}</dd>");
+        total += {{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }};
+        $(".totalPrice").val("Estimated Total: $" + total);
     });
     
-     $("#service-webdesign").click(function(){
-        $(".shoppingCart").append("<dt>Web Design</dt><dd>$500</dd>");
-        total += 500; 
-        $(".totalPrice").val("Total: $" + total);
- 
-    });
+
 });

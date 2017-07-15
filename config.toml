@@ -87,6 +87,164 @@ publishDir = "docs"
         [params.contact.form.price]
             text = "Would you like to negotiate pricing? Message me."
             error = "Please select at least one service"
+            
+        [params.contact.form.service]
+        
+            [params.contact.form.service.website]
+            text = "Website"   
+            id = "service-website"
+            price = "100"
+            extra = " (one page)"
+            
+            [params.contact.form.service.hosting]
+            text = "Hosting"   
+            id = "service-hosting"
+            price = "100"
+            extra = " (per year)"
+            
+            [params.contact.form.service.domain]
+            text = "Domain Name"   
+            id = "service-domain"
+            price = "20"
+            extra = " (per year)"
+            
+            [params.contact.form.service.interactive]
+            text = "Interactive Web Component"   
+            id = "service-interactive"
+            price = "100"
+            extra = " (one calculation, animation, map, gallery, form, etc...)"
+            
+            [params.contact.form.service.application]
+            text = "Web App"   
+            id = "service-application"
+            price = "800"
+            extra = " (user information is saved)"
+            
+            [params.contact.form.service.cms]
+            text = "Content Managed Website"   
+            id = "service-cms"
+            price = "50"
+            extra = " (ex: squarespace, wix, wordpress, shopify, weebly etc. plus cost of platform ($0 - $500/yr))"
+            
+            [params.contact.form.service.webrevision]
+            text = "Web Revision"   
+            id = "service-webrevision"
+            price = "50"
+            extra = " (each)"
+            
+            [params.contact.form.service.touchup]
+            text = "Photo Touch-up or Effect"   
+            id = "service-touchup"
+            price = "25"
+            extra = " "
+            
+            [params.contact.form.service.replace]
+            text = "Photo Remove/Replace Background"   
+            id = "service-replace"
+            price = "10"
+            extra = " "
+            
+            [params.contact.form.service.gif]
+            text = "GIF Animation"   
+            id = "service-gif"
+            price = "30"
+            extra = " "
+            
+            [params.contact.form.service.resize]
+            text = "Resize Photo"   
+            id = "service-resize"
+            price = "10"
+            extra = " "
+            
+            [params.contact.form.service.change]
+            text = "Change File Type"   
+            id = "service-change"
+            price = "10"
+            extra = " (ex: jpg logo to vector logo)"
+            
+            [params.contact.form.service.photorevision]
+            text = "Photo Revision"   
+            id = "service-photorevision"
+            price = "5"
+            extra = " (each)"
+            
+            [params.contact.form.service.ad]
+            text = "Advertisement"   
+            id = "service-ad"
+            price = "50"
+            extra = " (printing not included)"
+            
+            [params.contact.form.service.poster]
+            text = "Poster"   
+            id = "service-poster"
+            price = "50"
+            extra = " (printing not included)"
+            
+            [params.contact.form.service.logo]
+            text = "Logo"   
+            id = "service-logo"
+            price = "50"
+            extra = " "
+            
+            [params.contact.form.service.invitation]
+            text = "Invitation"   
+            id = "service-invitation"
+            price = "50"
+            extra = " (printing not included)"
+            
+            [params.contact.form.service.businesscard]
+            text = "Business Card"   
+            id = "service-businesscard"
+            price = "25"
+            extra = " (printing not included)"
+            
+            [params.contact.form.service.letterhead]
+            text = "Letterhead"   
+            id = "service-letterhead"
+            price = "25"
+            extra = " (printing not included)"
+            
+            [params.contact.form.service.tshirt]
+            text = "T-Shirt"   
+            id = "service-tshirt"
+            price = "25"
+            extra = " (screen printing not included)"
+            
+            [params.contact.form.service.digitaldesign]
+            text = "Web or App Design"   
+            id = "service-digitaldesign"
+            price = "50"
+            extra = " (one page. mocks/specs only. development not included)"
+            
+            [params.contact.form.service.designrevision]
+            text = "Design Revision"   
+            id = "service-designrevision"
+            price = "10"
+            extra = " (each)"
+            
+            [params.contact.form.service.consultationemail]
+            text = "Consultation via Email"   
+            id = "service-consultationemail"
+            price = "10"
+            extra = " (unlimited)"
+            
+            [params.contact.form.service.consultationperson]
+            text = "Consultation in Person"   
+            id = "service-consultationperson"
+            price = "25"
+            extra = " (one hour)"
+            
+            [params.contact.form.service.bot]
+            text = "Software Task Automation"   
+            id = "service-bot"
+            price = "100"
+            extra = " (content migration, social media auto posting, etc...)"
+            
+            [params.contact.form.service.idea]
+            text = "Idea Sketches"   
+            id = "service-idea"
+            price = "5"
+            extra = " (each)"
 
         [params.contact.form.message]
             text = "Message"

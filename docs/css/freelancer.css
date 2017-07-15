@@ -333,7 +333,7 @@ fieldset[disabled] .btn-primary.active {
   border-color: #2C3E50;
 }
 
-.btn .btn-default {
+.btn-default {
     margin-bottom: 5px;
     padding: 2px 5px;
 }

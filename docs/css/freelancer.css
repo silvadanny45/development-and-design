@@ -332,6 +332,16 @@ fieldset[disabled] .btn-primary.active {
   background-color: #2C3E50;
   border-color: #2C3E50;
 }
+
+.btn .btn-default {
+    margin-bottom: 5px;
+    padding: 2px 5px;
+}
+
+.btn-web{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
 .btn-primary .badge {
   color: #2C3E50;
   background-color: white;

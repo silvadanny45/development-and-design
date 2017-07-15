@@ -105,7 +105,7 @@ publishDir = "docs"
             address = ["Stevens Point, Wisconsin"]
 
         [params.footer.social]
-            title = "Around the web"
+            title = "Around the Web"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.

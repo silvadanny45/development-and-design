@@ -42,7 +42,7 @@
                     <div class="row control-group">
                         <div class="form-group col-12 floating-label-form-group controls">
                         <p class="form-control" id="servicesNeeded1">Services Needed</p> 
-                        <div id="servicesNeeded3">    
+                        <div id="servicesNeeded3" class="services">    
                         <button type="button" class = "btn btn-default btn-web" id="{{ with .Site.Params.contact.form.service.website.id }}{{.}}{{ end }}">{{ with .Site.Params.contact.form.service.website.text }}{{.}}{{ end }} ${{ with .Site.Params.contact.form.service.website.price }}{{.}}{{ end }} <i class="material-icons" style = "display: inline-flex; vertical-align: middle;">add_circle_outline</i></button>
                             
                         <button type="button" class = "btn btn-default btn-web" id="{{ with .Site.Params.contact.form.service.hosting.id }}{{.}}{{ end }}">{{ with .Site.Params.contact.form.service.hosting.text }}{{.}}{{ end }} ${{ with .Site.Params.contact.form.service.hosting.price }}{{.}}{{ end }} <i class="material-icons" style = "display: inline-flex; vertical-align: middle;">add_circle_outline</i></button>

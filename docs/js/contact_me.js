@@ -30,6 +30,7 @@ $(document).ready(function(){
 
     $("#service-website").click(function(){
         $(".shoppingCart").append("<dt>Website</dt><dd>$100 (one page)</dd>");
+        $(".services").append("<input type="hidden"  name="Website" value="$100">")
         total += 100;
         $(".totalPrice").val("Estimated Total: $" + total);
     });

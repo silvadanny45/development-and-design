@@ -186,7 +186,7 @@ $(document).ready(function(){
      
     $( "button" ).click(function() {
         var allServices = $( ".shoppingCart" ).html();
-        $( ".allservices").value( allServices );
+        $( ".allservices").val( allServices );
 });
 
 });

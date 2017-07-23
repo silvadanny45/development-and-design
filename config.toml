@@ -267,13 +267,7 @@ publishDir = "docs"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
-            [[params.footer.social.networks]]
-                icon = ""
-                link = ""
-
-            [[params.footer.social.networks]]
-                icon = ""
-                link=  ""
+            
 
 
         [params.footer.credits]

@@ -64,7 +64,7 @@ publishDir = "docs"
 
         [params.about.button]
             text = "Get started today"
-            link = ""
+            link = "#contact"
             icon = ""
 
 

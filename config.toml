@@ -12,8 +12,8 @@ publishDir = "docs"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Ruzek-Klein Development & Design"
-    description = "I specialize in creating websites and graphics that meet your business or project needs. Choose your own customizable package to get up and running in no time."
+    name = "The Web Design Co-op"
+    description = "We specialize in creating websites and graphics that meet your business or project needs. Choose your own customizable package to get up and running in no time."
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -59,8 +59,8 @@ publishDir = "docs"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "I'm Amelia Ruzek Klein, designer, developer, and founder of the Web Design Co-Op. I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I'm working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands."
-        right = "Whether you're a student needing to showcase your work, a professional looking to attract clients, or a small business ready to grow, The Web Design Co-Op is the perfect starting point!"
+        left = "I'm Amelia Ruzek Klein, designer, developer, and founder of the Web Design Co-op. I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I'm working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands."
+        right = "Whether you're a student needing to showcase your work, a professional looking to attract clients, or a small business ready to grow, The Web Design Co-op is the perfect starting point!"
 
         [params.about.button]
             text = "Get started today"

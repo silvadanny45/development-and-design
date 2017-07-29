@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://ruzekklein.github.io/development-and-design/"
 languageCode = "en-us"
-title = "Ruzek-Klein Development & Design"
+title = "Web Design Co-op"
 publishDir = "docs"
 
 

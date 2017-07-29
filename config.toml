@@ -33,13 +33,13 @@ publishDir = "docs"
 	custom_js  = []
 
     [params.navigation]
-        brand = "Ruzek-Klein Development & Design"
+        brand = "Web Design Co-op"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         name = "Choose your own customizable web and graphic package to build your small business or project."
-        subtitle = "I'm Amelia Ruzek-Klein, developer and designer."
+        subtitle = "The Web Design Co-op will connect you with a developer or designer."
 
 
     [params.portfolio]
@@ -59,8 +59,8 @@ publishDir = "docs"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I'm working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands."
-        right = "Whether you're a student needing to showcase your work, a professional looking to attract clients, or a small business ready to grow, Ruzek-Klein Development and Design is the perfect starting point!"
+        left = "I'm Amelia Ruzek Klein, designer, developer, and founder of the Web Design Co-Op. I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I'm working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands."
+        right = "Whether you're a student needing to showcase your work, a professional looking to attract clients, or a small business ready to grow, The Web Design Co-Op is the perfect starting point!"
 
         [params.about.button]
             text = "Get started today"

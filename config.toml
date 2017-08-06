@@ -9,7 +9,7 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = "Amelia Ruzek"
+  author = "Web Design Cooperative"
   description = "Choose your own customizable web and graphic package to build your business or project. The Web Design Cooperative will connect you with the development and design to achieve your goals."
   email = "amelia.ruzek.klein@gmail.com"
   # Navigation

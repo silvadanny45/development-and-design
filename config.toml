@@ -114,6 +114,11 @@ theme = "hugo-elate-theme"
       img = "person1.jpg"
       alt = "Person1"
 
+ [[params.testimonials.item]]
+      quote = "&ldquo;Very quick with the demands, and fun to work with.&rdquo;"
+      person = 'Brunch<span class="subtext">Author</span>'
+      img = "person1.jpg"
+      alt = "Person1"
     
 
 

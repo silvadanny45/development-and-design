@@ -156,9 +156,8 @@ theme = "hugo-elate-theme"
       description = "I’m Amelia Ruzek Klein, designer, developer, and founder of the Web Design Co-op. I have 6+ years experience working with clients ranging from small hobbyists to fortune 500. I have a B.A. in Graphic Design and I’m working toward an M.L.A. in Digital Media Design. You can trust your project is in good hands."
       alt = "image of Amelia"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-facebook", "https://www.facebook.com/amelia.ruzek"],
+        ["icon-linkedin", "https://www.linkedin.com/in/ameliaruzek/"]
       ]
 
 

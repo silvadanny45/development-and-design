@@ -225,3 +225,4 @@ theme = "hugo-elate-theme"
   [params.footer]
     enable = true
     copyright = '&copy; Web Design Cooperative. All Rights Reserved.'
+ 

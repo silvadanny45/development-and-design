@@ -159,6 +159,16 @@ theme = "hugo-elate-theme"
         ["icon-facebook", "https://www.facebook.com/amelia.ruzek"],
         ["icon-linkedin", "https://www.linkedin.com/in/ameliaruzek/"]
       ]
+      
+      [[params.about.item]]
+      name = "Sam Klein"
+      position = "Computer Consultant & Programmer"
+      description = "Sam Klein is a computer consultant and programmer with several years of professional experience in information technology and web development. He is pursuing a MS degree in Computer Science at the University of Illinois and earned his bachelors at the University of Wisconsin, where he helped found a Linux computing and networking research lab."
+      alt = "image of Sam"
+      social = [
+        ["icon-facebook", ""],
+        ["icon-linkedin", ""]
+      ]
 
 
   # Counters section
